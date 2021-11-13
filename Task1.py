@@ -6,11 +6,10 @@ print("Hello,", name, surname, "!" " Welcome to our new course. Let's pass quick
 age = int(input("What is your age? "))
 country_living = input("What country are you from? ")
 town_living = input('What city/town are you from? ')
-backround = input("What is you background? ")
+background = input("What is you background? ")
 profession = input("What is your current profession? ")
 
 print("Thank you,", name, "!", "Your profile is completed \n \nName: ", name)
 
 print("Surname: ", surname, "\nAge: ", age, "\nCountry: ", country_living, "\nCity/town: ", town_living,
-      "\nBackground: ", backround, "\nProfession: ", profession)
-
+      "\nBackground: ", background, "\nProfession: ", profession)
